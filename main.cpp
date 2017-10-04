@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
   vector <vector <string> > wordGrid;
+  int max = wordGrid.size();
 
   /*
      do not edit this space
@@ -18,6 +19,12 @@ int main()
   */
 
   //PUT YOUR CODE BELOW THIS LINE
+    for(int index = 0; index < max; index++)
+     {
+       cout<<"Row "<<wordGrid[index]<<"Column "<<wordgrid[index]"is ";
+     }
+
+
   //that prints each element of the matrix in the
   //following format:
   //Row _ Column _ is _
